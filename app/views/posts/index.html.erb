@@ -1,0 +1,9 @@
+<h1>All Posts</h1>
+
+
+<% @posts.each do |post| %>
+    <p> <%= post.title %> </p>
+    <p> <%= post.description %> </p>
+<% end %>
+
+<p> Click <a href="posts/new">here</a> to create a new post!</p>
